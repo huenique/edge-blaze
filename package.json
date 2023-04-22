@@ -1,0 +1,49 @@
+{
+  "name": "edge-blaze",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "refine": "refine",
+    "prettier:write": "prettier --write '**/*.{js,jsx,ts,tsx,css,scss,md}' --ignore-path .prettierignore",
+    "prettier:check": "prettier --check '**/*.{js,jsx,ts,tsx,css,scss,md}' --ignore-path .prettierignore"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.10.4",
+    "@mantine/form": "^5.10.4",
+    "@mantine/hooks": "^5.10.4",
+    "@mantine/next": "^6.0.1",
+    "@mantine/notifications": "^5.10.4",
+    "@planetscale/database": "^1.7.0",
+    "@refinedev/cli": "^2.5.3",
+    "@refinedev/core": "^4.10.0",
+    "@refinedev/inferencer": "^3.3.0",
+    "@refinedev/kbar": "^1.1.0",
+    "@refinedev/mantine": "^2.10.0",
+    "@refinedev/nextjs-router": "^5.1.6",
+    "@refinedev/react-table": "^5.1.4",
+    "@refinedev/simple-rest": "^4.5.0",
+    "@tabler/icons": "^1.1.0",
+    "http-status-codes": "^2.2.0",
+    "next": "^13.3.1",
+    "nookies": "^2.5.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.11",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^4.7.4"
+  }
+}

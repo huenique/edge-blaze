@@ -1,0 +1,5 @@
+# edge-blaze
+
+## License
+
+MIT
